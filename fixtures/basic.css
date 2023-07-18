@@ -1,0 +1,17 @@
+/**
+  * This is my class that spans multiple lines
+  */
+.lightest {
+    /* These are my variables */
+  --a: #fff;
+  --b: rgba(255, 255, 255, 0.8);
+  --c: 10px;
+  --d: block;
+  --e: var(--a);
+
+/* These are my properties */
+  text-transform: capitalize;
+  color: var(--e);
+  display: var(--d);
+  font-size: var(--c, 18px);
+}
