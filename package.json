@@ -1,5 +1,4 @@
 {
-  "private": false,
   "name": "postcss-strip-comments",
   "version": "1.0.0",
   "license": "Apache-2.0",
@@ -20,7 +19,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "test": "echo \"Error: no test specified\" && exit 1 #ava",
+    "test": "ava",
     "coverage": "c8 yarn test",
     "semantic-release": "semantic-release"
   },
@@ -36,7 +35,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.6.6",
-    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
