@@ -15,7 +15,7 @@
     "index.js"
   ],
   "engines": {
-    "node": ">=14 <=18"
+    "node": ">=20.8.1"
   },
   "scripts": {
     "prepare": "husky install",
@@ -35,11 +35,11 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
-    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.7",
-    "@semantic-release/npm": "^10.0.4",
-    "@semantic-release/release-notes-generator": "^11.0.2",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
     "ava": "^5.3.1",
     "c8": "^8.0.1",
     "husky": "^8.0.3",
@@ -47,7 +47,7 @@
     "postcss": "^8.4.31",
     "prettier": "^3.1.0",
     "prettier-package-json": "^2.8.0",
-    "semantic-release": "^21.0.7"
+    "semantic-release": "^23.0.2"
   },
   "lint-staged": {
     "*.js": [
