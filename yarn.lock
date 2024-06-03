@@ -1122,10 +1122,10 @@ author-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/author-regex/-/author-regex-1.0.0.tgz#d08885be6b9bbf9439fe087c76287245f0a81450"
   integrity sha512-KbWgR8wOYRAPekEmMXrYYdc7BRyhn2Ftk7KWfMUnQ43hFdojWEFRxhhRUm3/OFEdPa1r0KAvTTg9YQK57xTe0g==
 
-ava@^6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/ava/-/ava-6.1.2.tgz#fe4f107177b8bf511135827bfcd0a4e6f82d457a"
-  integrity sha512-WcpxJ8yZ7mk9ABTinD0IAjcemovSeVGjuuwZx0JS9johREWFeLTl8UP6wd7l6nmnrWqkKZdwaD71a/ocH4qPKw==
+ava@^6.1.3:
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/ava/-/ava-6.1.3.tgz#aed54a4528653c7a62b6d68d0a53608b22a5b1dc"
+  integrity sha512-tkKbpF1pIiC+q09wNU9OfyTDYZa8yuWvU2up3+lFJ3lr1RmnYh2GBpPwzYUEB0wvTPIUysGjcZLNZr7STDviRA==
   dependencies:
     "@vercel/nft" "^0.26.2"
     acorn "^8.11.3"
@@ -2019,14 +2019,7 @@ figures@^2.0.0:
   dependencies:
     escape-string-regexp "^1.0.5"
 
-figures@^6.0.0, figures@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/figures/-/figures-6.0.1.tgz#75a2baf3ca8c63e2ea253179e9f1157833587ea4"
-  integrity sha512-0oY/olScYD4IhQ8u//gCPA4F3mlTn2dacYmiDm/mbDQvpmLjV4uH+zhsQ5IyXRyvqkvtUkXkNdGvg5OFJTCsuQ==
-  dependencies:
-    is-unicode-supported "^2.0.0"
-
-figures@^6.1.0:
+figures@^6.0.0, figures@^6.0.1, figures@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/figures/-/figures-6.1.0.tgz#935479f51865fa7479f6fa94fc6fc7ac14e62c4a"
   integrity sha512-d+l3qxjSesT4V7v2fh+QnmFnUWv9lSpjarhShNTgBOfA0ttejbQUAlHLitbjkoRiDulW0OPoQPYIGhIC8ohejg==
